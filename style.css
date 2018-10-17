@@ -1,0 +1,21 @@
+.title{
+  text-align: center;
+}
+#category-container{
+  display:flex;
+  flex-direction: column;
+  border-style: solid;
+  width:15%;
+  margin-top: 5%;
+
+}
+#itemTextBox{
+  border-color: black;
+}
+#categoryTextBox{
+  border-color: black;
+}
+#main-container{
+  display:flex;
+  justify-content: space-around;
+}

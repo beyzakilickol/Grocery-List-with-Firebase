@@ -1,0 +1,41 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>Grocery List</title>
+</head>
+<body>
+<h1 class="title">My Grocery List</h1>
+<label>Add Grocery Items: <input id="itemTextBox" type="text" value="Enter items here" onfocus="this.value=''"/></label>
+<button id="itemAddButton">Add</button>
+<label>Add the item to category: <input id="categoryTextBox" type="text" value="Enter category here" onfocus="this.value=''"/></label>
+<button id="categoryAddButton">Add</button>
+<div id="main-container">
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBgBgQ9BWdxX8KYU9y8G2wypMEzVXkKxIw",
+    authDomain: "grocerylist-23638.firebaseapp.com",
+    databaseURL: "https://grocerylist-23638.firebaseio.com",
+    projectId: "grocerylist-23638",
+    storageBucket: "",
+    messagingSenderId: "719730477403"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="grocery.js"></script>
+</html>
